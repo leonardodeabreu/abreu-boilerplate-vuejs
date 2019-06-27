@@ -11,8 +11,6 @@ I bring you a different kind of vuejs architecture. This is a good structure for
 
 ## Project Requirements
 
-- [Docker](https://www.docker.com/get-started)
-- [Docker Compose](https://docs.docker.com/compose/gettingstarted)
 - [Git](https://git-scm.com/downloads)
 - [Node(10.16.0)](https://nodejs.org/en/)
 
@@ -25,21 +23,20 @@ I bring you a different kind of vuejs architecture. This is a good structure for
    # git checkout master
   ```
 
-  **1.2.** Build & Run the project using Docker Container:
-
-  ```
-   # cd .docker
-   # docker-compose up --build
-  ```
-
 ### 2. Environment Set Up
   **2.1.** Create your local environment settings file:
 
   ```
    # cd ../src
    # cp .env.example .env
-   # yarn install
   ```
+  
+  **2.2.** Install Yarn:
+  ```
+    # npm i yarn
+    # yarn install || npm i
+  ```
+  
 
 ### 3. Compiles and hot-reloads for development
 ```
