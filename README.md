@@ -1,6 +1,6 @@
 # Abreu Boilerplate Vuejs
 
-I bring you a different kind of vuejs architecture. This is a good structure for large projects. 
+I bring you a different approach to vuejs architecture. This is a good structure for large projects.
 
 ## Summary
 
